@@ -1,10 +1,19 @@
 import './App.css';
+import Contact from './component/Contact';
+import Home from './component/Home';
+import NavBar from './component/NavBar';
+import Skills from './component/Skills';
+import AboutMe from './component/AboutMe';
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+    <NavBar/>
+    <Home/>
+   <AboutMe/>
+    <Skills/>
+    <Contact/>
+    </>
   );
 }
 
